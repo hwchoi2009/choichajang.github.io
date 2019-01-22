@@ -62,10 +62,12 @@ categories: github jekyll blog
 4. 'Raw' 단추를 눌러 소스만 깔끔하게 보기
 5. 소스 전체 복사하기
 6. 내 리파지터리 루트에서 'Create new File' 눌러 _config.yml 파일 생성하기
-7. _config.yml 파일 내용으로 이미 복사해둔 내용 붙여넣기
-8. 커스텀하기
+7. _config.yml 파일 내용으로 이미 복사해둔 내용 붙여넣기 및 커스텀
+8. index.html 파일 복붙하기
+9. 네비케이션 만들고 자기 소개페이지 수정하기
 
-커스텀 내용은 다음과 같습니다(14행부터 27행 내용입니다).
+'7. _config.yml 파일 내용으로 이미 복사해둔 내용 붙여넣기 및 커스텀' 방법은 다음과 같습니다(14행부터 27행 내용입니다).
+
 
 ```html
 remote_theme             : "mmistakes/minimal-mistakes"
@@ -85,7 +87,32 @@ logo                     : "/choichajang.github.io/최차장.png"
 ```
 
 
-config.yml 파일만 잘 복사하고 수정하면 끝이다. 물론 모든 홈페이지가 그렇듯 index 파일은 필요하다.
+'8. index.html 파일 복붙하기'는 index.html을 복붙해 넣으면 됩니다. 방법은 _config.yml 파일과 같습니다.
+(모든 홈페이지가 그렇듯 index 파일은 필요합니다)
+
+'9. 네비케이션 만들고 자기 소개페이지 수정하기'는 네이게이션 파일을 만들고 자기소개 파일을 만들면 그만입니다.
+
+먼저 _data/navigation.yml 파일을 아래 내용으로 만듭니다.
+```html
+# main links
+main:
+  - title: "About" # 네비게이션 바에 표시 되는 이름
+    url: "/about/" # 클릭시 이동할 URL
+  - title: "Category"
+    url: /categories/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap
+```
+
+그후 리파지터리 루트에 about.md 파일을 생성합니다. 내용은 원하시는 대로 하시면 됩니다.
+제 about 파일을 참고하시기 바랍니다.
+
+[최차장의 about.md 파일 보기](https://github.com/ChoiChaJang/choichajang.github.io/blob/master/about.md)
+
+읽어 주셔서 고맙습니다.
+
 
 ```python
 def print_hi(name):
