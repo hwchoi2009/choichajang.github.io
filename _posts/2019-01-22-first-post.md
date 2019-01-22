@@ -93,6 +93,7 @@ logo                     : "/choichajang.github.io/최차장.png"
 '9. 네비케이션 만들고 자기 소개페이지 수정하기'는 네이게이션 파일을 만들고 자기소개 파일을 만들면 그만입니다.
 
 먼저 _data/navigation.yml 파일을 아래 내용으로 만듭니다.
+
 ```html
 # main links
 main:
