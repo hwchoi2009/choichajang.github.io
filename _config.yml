@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "최차장의 다이어리"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "최차장"
+description              : "저는 최차장입니다...길게 써도 됩니다"
 url                      : "https://choichajang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
