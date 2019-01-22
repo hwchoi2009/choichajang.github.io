@@ -10,7 +10,7 @@ categories: github jekyll blog
 1. 깃허브 계정 생성
 2. 깃허브를 블로그로 만들기
 
-### 1. 깃허브 계정 생성
+## 1. 깃허브 계정 생성
 다음과 같이 두 단계입니다. 
 --- 지메일 계정을 하나 파기(있으면 있는 계정 사용한다)
 --- 깃허브(https://github.com/)에 접속해 계정을 생성하기
@@ -19,14 +19,13 @@ categories: github jekyll blog
 깃허브 계정 생성 방법 진유림 님의 웹북([초심자를 위한 Github](http://www.realhanbit.co.kr/books/125/pages/1129/preview))을 참고하기 바란다.
 (계정 생성하시고 꼭 본인 지메일에서 '[GitHub] Please verify your email address.' 글을 확인하시고 'Verify email address' 단추를 누르세요)
 
-### 2. 깃허브를 블로그로 만들기
+## 2. 깃허브를 블로그로 만들기
 다음과 같이 단계입니다.
 
 1. 리포지터리 생성하기
-2. 테마 적용하기
-3. 
+2. 테마 적용하기(기존 설정)
 
-#### 2.1리포지터리 생성하기
+### 2.1리포지터리 생성하기
 리포지터리는 아래 형식으로 만듭니다.
 
 **본인계정이름.github.io**
@@ -44,17 +43,53 @@ categories: github jekyll blog
 그러니 꼭! 형식을 따라주세요.
 
 
+### 2.2 테마 적용하기(기본 설정)
+테마를 적용하고 작업 후에 아무것도 없으므로 첫 번째 글을 올리고, 네이게이션을 만들어 about이 노출되게 하는 것까지 진행해볼게요.
 
-#### 2.2 테마 적용하기
+진행 순서는 다음과 같습니다.
 
-1. config.yml 파일 생성하기
-2. _posts에 첫 번째 글 올리기
+1. 테마 적용하기
+2.  번째 글 올리기
 3. 네비게이션 구성하기
 4. about 만들기
-(반드시 본인 깃허브 계정과 같은 이름 + .github.io 형식으로 합니다.)
+
+###2.2.1 테마 적용하기
+[jekyll-theme](https://github.com/topics/jekyll-theme)를 사용합니다(아직 저도 다른 테마는 사용해본 적이 없어요. 이제 입문 3시간째입니다. 블로그에서 다 이 테마만 사용합니다. 일단은 따라하기!).
+
+1. https://github.com/topics/jekyll-theme 이동하기
+2. mmistakes / minimal-mistakes 테마 선택
+3. _config.yml을 클릭하기
+4. 'Raw' 단추를 눌러 소스만 깔끔하게 보기
+5. 소스 전체 복사하기
+6. 내 리파지터리 루트에서 'Create new File' 눌러 _config.yml 파일 생성하기
+7. _config.yml 파일 내용으로 이미 복사해둔 내용 붙여넣기
+8. 커스텀하기
+
+커스텀 내용은 다음과 같습니다(14행부터 27행 내용입니다).
+
+---html
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "최차장의 다이어리"
+title_separator          : "-"
+name                     : "최차장"
+description              : "저는 최차장입니다...길게 써도 됩니다"
+url                      : "https://choichajang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/choichajang.github.io/최차장.png"
+---
+
+
+config.yml 파일만 잘 복사하고 수정하면 끝이다. 물론 모든 홈페이지가 그렇듯 index 파일은 필요하다.
 
 ```python
 def print_hi(name):
   print("hello", name)
 print_hi('Tom')
 '''
+-
