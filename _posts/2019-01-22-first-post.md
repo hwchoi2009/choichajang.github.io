@@ -24,7 +24,9 @@ categories: github jekyll blog
 
 1. 리포지터리 생성하기
 2. 테마 적용하기
+3. 
 
+#### 2.1리포지터리 생성하기
 리포지터리는 아래 형식으로 만듭니다.
 
 **본인계정이름.github.io**
@@ -43,10 +45,12 @@ categories: github jekyll blog
 
 
 
-### 3. 테마 적용하기
-_config.yml 파일 생성하기
---- _posts에 첫 번째 글 올리기
---- 
+#### 2.2 테마 적용하기
+
+1. config.yml 파일 생성하기
+2. _posts에 첫 번째 글 올리기
+3. 네비게이션 구성하기
+4. about 만들기
 (반드시 본인 깃허브 계정과 같은 이름 + .github.io 형식으로 합니다.)
 
 ```python
