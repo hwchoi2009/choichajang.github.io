@@ -67,7 +67,7 @@ categories: github jekyll blog
 
 커스텀 내용은 다음과 같습니다(14행부터 27행 내용입니다).
 
----html
+```html
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -82,7 +82,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/choichajang.github.io/최차장.png"
----
+```
 
 
 config.yml 파일만 잘 복사하고 수정하면 끝이다. 물론 모든 홈페이지가 그렇듯 index 파일은 필요하다.
