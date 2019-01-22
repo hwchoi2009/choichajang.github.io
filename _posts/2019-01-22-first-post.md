@@ -113,11 +113,3 @@ main:
 [최차장의 about.md 파일 보기](https://github.com/ChoiChaJang/choichajang.github.io/blob/master/about.md)
 
 읽어 주셔서 고맙습니다.
-
-
-```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-'''
--
