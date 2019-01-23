@@ -10,6 +10,7 @@ header-img: img/about.jpg
 ---
 
 IT 기술에 관심 많은 아재 개그 능통자
+123456
 
 # 주요 경력
 
