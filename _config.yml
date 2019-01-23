@@ -293,6 +293,16 @@ defaults:
       comments: # true
       share: true
       related: true
-      
 
+# 여기는 최차가 추가
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Categories
+   url: /category
+ - title: Contact
+   url: /contact
+   
 theme: jekyll-theme-minimal
