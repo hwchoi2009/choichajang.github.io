@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "깃허브 블로그 만들기 삽질 #2"
 date: 2019-01-23 21:57:00 -0400
 categories: tech
