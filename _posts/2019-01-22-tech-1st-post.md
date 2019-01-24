@@ -54,7 +54,7 @@ categories: tech
 3. 네비게이션 구성하기
 4. about 만들기
 
-###2.2.1 테마 적용하기
+### 2.2.1 테마 적용하기
 [jekyll-theme](https://github.com/topics/jekyll-theme)를 사용합니다(아직 저도 다른 테마는 사용해본 적이 없어요. 이제 입문 3시간째입니다. 블로그에서 다 이 테마만 사용합니다. 일단은 따라하기!).
 
 1. https://github.com/topics/jekyll-theme 이동하기
