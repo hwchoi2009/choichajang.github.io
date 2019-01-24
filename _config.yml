@@ -279,6 +279,15 @@ compress_html:
   ignore:
     envs: development
 
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Categories
+    url: /category
+#  - title: tech
+#    url: /category/tech
 
 # Defaults
 defaults:
@@ -294,14 +303,5 @@ defaults:
       share: true
       related: true
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Categories
-    url: /category
-#  - title: tech
-#    url: /category/tech
    
 theme: jekyll-theme-minimal
