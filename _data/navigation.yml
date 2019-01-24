@@ -8,6 +8,8 @@ main:
     url: "/category/clang.html"
   - title: "tech"
     url: "/category/tech.html"
+  - title: "haha"
+    url: "/category/haha.html"
       
   # - title: "Sample Collections"
   #   url: /collection-archive/
