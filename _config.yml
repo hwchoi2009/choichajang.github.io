@@ -1,0 +1,31 @@
+title: 최차장의 블로그
+description: 최차장의 스타트업, 기획, 개발, 마케팅 블로그입니다.
+
+url: https://jeesub.github.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 10
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Categories
+   url: /category
+ - title: Contact
+   url: /contact
+
+social:
+   github: jeesub
+   twitter:
+   facebook: jeesub.brad.lee
+   email: lee@oeclab.com
+
+google_analytics: "UA-106476938-1"
+timezone: Asia/Seoul
