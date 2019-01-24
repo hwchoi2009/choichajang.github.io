@@ -1,10 +1,9 @@
-<!-- /category/tech.html -->
 ---
 layout: default
 ---
-tech에 포함된 글
+tech 카테고리의 글
 <ul>
-	{% for post in site.categories.tech %}
-	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
+  {% for post in site.categories.tech %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
