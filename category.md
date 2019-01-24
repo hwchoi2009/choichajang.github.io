@@ -9,6 +9,6 @@ title: Categories
 		<li><a href="./editing">editing</a></li>
 		<li><a href="./clang">clang</a></li>
 		<li><a href="./tech">tech</a></li>		
-		<li><a href="./hahaha">haha</a></li>
+		<li><a href="./haha">haha</a></li>
 	</ul>
 </div>
