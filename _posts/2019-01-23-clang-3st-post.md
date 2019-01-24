@@ -19,3 +19,7 @@ https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-002/
 
 마지막 시도할 놈
 https://cookieshake.github.io/posts/Jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-Category-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
+
+외국 블로그 3스텝 구현
+https://blog.webjeda.com/jekyll-categories/
