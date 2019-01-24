@@ -1,4 +1,5 @@
 ---
+layout: default
 title:  "jekyll 테마 바꾸기"
 date: 2019-01-24 23:05:00 -0400
 categories: clang
