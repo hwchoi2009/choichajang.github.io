@@ -278,7 +278,17 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+    
+    
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Categories
+   url: /category
+ - title: Contact
+   url: /contact
 
 # Defaults
 defaults:
@@ -293,6 +303,6 @@ defaults:
       comments: # true
       share: true
       related: true
-      
 
-theme: jekyll-theme-minimal
+   
+# theme: jekyll-theme-minimal

@@ -1,0 +1,10 @@
+<!-- /category/editing.html -->
+---
+layout: default
+---
+editing에 포함된 글
+<ul>
+	{% for post in site.categories.editing %}
+	<li><a href="{{post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>

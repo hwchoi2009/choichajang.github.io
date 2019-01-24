@@ -1,7 +1,7 @@
 ﻿---
 title: "깃허브 블로그 만들기 삽질 #2 : 로컬/원격 리파지터리 연동하기"
 date: 2019-01-23 21:57:00 -0400
-categories: github jekyll blog
+categories: tech
 ---
 
 이번에는 깃허브 원격 리파지터리를 로컬 PC에서 관리하는 방법을 알아보겠습니다.
@@ -73,19 +73,19 @@ $ cd choichajang.github.io/
 
 음... 흐름이 명확해서 까먹을 일 없어보이네요.
 
-### 1. 수정 사항 모으기 - add
+### 4.1 수정 사항 모으기 - add
 모든 변경 사항을 모아봅시다.
 ```bash
 git add *
 ```
 
-### 2. 본인 입력 - git config --global user.email
+### 4.2 본인 입력 - git config --global user.email
 누가 사용하는지 입력해주세요.
 ```bash
 $ git config --global user.email "여러분이메일@gmail.com"
 ```
 
-### 3. 로컬에 커밋 - comimt
+### 4.3 로컬에 커밋 - comimt
 로컬에 변경 정보를 커밋합니다.
 ```bash
 $ git commit -m "파일 정리"
@@ -98,7 +98,7 @@ $ git commit -m "파일 정리"
  delete mode 100644 _posts/about.md
 ```
 
-### 4. 원격 저장소에 -push
+### 4.4 원격 저장소에 -push
 드디어 원격 저장소에 변경 사항을 반영합니다.
 ```bash
 $ git push origin master
@@ -118,3 +118,19 @@ To https://github.com/ChoiChaJang/choichajang.github.io
 (세상에는 훌륭한 분이 참 많아요)
 
 - https://rogerdudler.github.io/git-guide/index.ko.html
+
+## 5.팁 (로컬과 원격 수정 사항이 쫑날 때)
+쫑나면 무조건 
+1. 로컬 변경을 로컬에
+2. 그후 로컬 변경을 원격에
+반영해야 합니다.
+
+### 5.1 로컬 변경 -> 로컬
+```bash
+$ git pull
+```
+
+### 5.2 로컬 변경 -> 원격
+```bash
+$ git push origin master
+```
