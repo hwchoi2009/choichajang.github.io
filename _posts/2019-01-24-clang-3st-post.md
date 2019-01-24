@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "jekyll 테마 바꾸기"
+date: 2019-01-24 23:05:00 -0400
 categories: clang
 ---
 jekyll 블로그의 테마를 바꾸기로 했다.
