@@ -294,15 +294,14 @@ defaults:
       share: true
       related: true
 
-
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Categories
-    url: /category
-  - title: Contact
-    url: /contact
+#navigation:
+#  - title: Home
+#    url: /index.html
+#  - title: About
+#    url: /about
+#  - title: Categories
+#    url: /category
+#  - title: Contact
+#    url: /contact
    
 theme: jekyll-theme-minimal
