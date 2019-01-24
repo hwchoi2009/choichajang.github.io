@@ -3,7 +3,7 @@ layout: post
 title: "깃허브 블로그 만들기 삽질 #2"
 date: 2019-01-23 21:57:00 -0400
 categories: tech
-tags : [tech Jekyll]
+tags : tech Jekyll
 ---
 
 이번에는 깃허브 원격 리파지터리를 로컬 PC에서 관리하는 방법을 알아보겠습니다.
