@@ -24,16 +24,17 @@ categories: tech
 ![에러](/assets/images/3rd_error.png)
 
 ### 시도 2. 사이드 카테고리 만들기 인데 역시나 실패
-[devyurim.github.io](https://devyurim.github.io/development%20environment/github%20blog/2018/08/07/blog-6.html)
+- [devyurim.github.io](https://devyurim.github.io/development%20environment/github%20blog/2018/08/07/blog-6.html)
 
 ### 시도 3. 아래 블로그로 자동으로 카테고리 만드는 방법을 구현했으나 원하는 기능이 아니라 패스
-[hoisharka.github.io](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-002/)
+- [hoisharka.github.io](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-002/)
 
 ### 시도 4.외국 블로그 3](스텝 구현... 으흠)
-[blog.webjeda.com](https://blog.webjeda.com/jekyll-categories/)
+- [blog.webjeda.com](https://blog.webjeda.com/jekyll-categories/)
 
 ### 과제 5. 차후에는 아래 링크로 공부해봐야겠다.
-[shryu8902.github.io](https://shryu8902.github.io/tags/#%EC%A7%80%ED%82%AC)
+- [shryu8902.github.io](https://shryu8902.github.io/tags/#%EC%A7%80%ED%82%AC)
+- [놀부 님 블로그](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
 
 ### 참고
 - [Jekyll cheatsheet](https://devhints.io/jekyll)
