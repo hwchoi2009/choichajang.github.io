@@ -15,13 +15,13 @@ categories: clang
 블로그에 버그가 있기는 하지만 일단은 구현에 참고했던 사이트만 남겨두고 남겨두고 진정하려고 한 일을 먼저 해야겠다는 생각이 들었다.
 이 블로그는 내가 무엇을 했는지 남겨두는 거지, 누군가에게 도움이 되는 건 부수효과이기 때문이다.
       
-시도 1. 수동방식으로 했는데 리스트가 안 올라온다.
+시도 1. 수동 방식으로 했는데 리스트가 안 올라온다.
 
 https://jeesub.github.io/blog/jekyll-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0/
 
 현재 에러를 스샷으로 남겨둔다.
 
-[에러](/assets/img/3rd_error.png )
+[에러](/assets/images/3rd_error.png )
 
 3rd_error
 시도 2. 사이드 카테고리 만들기 인데 역시나 실패
