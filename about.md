@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: default
 title: "최차장"
 subtitle: "최차장 소개"
 type: "About"
 author: "ChoiChaJang"
 permalink: /about/
 post-header: true
-header-img: /choichajang.github.io/KakaoTalk_20190122_223920820.png      
+header-img: "/choichajang.github.io/KakaoTalk_20190122_223920820.png"      
 ---
 
 IT 기술에 관심 많은 아재 개그 능통자
