@@ -44,5 +44,5 @@ header-img: "/choichajang.github.io/KakaoTalk_20190122_223920820.png"
 
 - C 언어 / 어샘블리
 - 다양한 8/16/32비트 CPU/MPU 기반 임베디드 코딩
-- 윈도우즈/리눅스 기반 디바이스 드라이버 개발(NDIS, Characters, USB)
-- 윈도우즈/리눅스 기반 애플리케이션/미들웨어 개발
+- 윈도우/리눅스 기반 디바이스 드라이버 개발(NDIS, Characters, USB)
+- 윈도우/리눅스 기반 애플리케이션/미들웨어 개발
