@@ -20,7 +20,8 @@ categories: clang
 https://jeesub.github.io/blog/jekyll-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0/
 
 현재 에러를 스샷으로 남겨둔다.
-- ![에러]({{site.url}}/assets/img/3rd_error.png )
+
+[에러]({{site.url}}/assets/img/3rd_error.png )
 
 3rd_error
 시도 2. 사이드 카테고리 만들기 인데 역시나 실패
