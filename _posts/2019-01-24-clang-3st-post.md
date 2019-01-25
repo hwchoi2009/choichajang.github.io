@@ -1,26 +1,39 @@
 ---
 layout: default
-title:  "jekyll 테마 바꾸기"
+title:  "카테고리 추가하기(실패)"
 date: 2019-01-24 23:05:00 -0400
 categories: clang
 ---
-jekyll 블로그의 테마를 바꾸기로 했다.
 
+카테고리가 붙는 모양이 참 제각각이다
+결론은 원하는 걸 구현하지 못하고 실패했다.
+원래 블로그를 개설한 이유가 지킬을 제대로 쓰려는 건 0도 없었다.
+그런데 개설 후 처음 3일을 깃허브로 블로그만드는 데 사용했다.
 
-수동방식으로 했는데 리스트가 안 올라온다.
+[최차장의 다이어리]라는 블로그 제목에 걸맞게 그냥 실패했더라도 실패한 내용을 적는 게 낫다는 생각이 문뜩 들었다.
+무엇보다 지금은 콘텐츠도 없어서 블류도 무의미하기도 하다.
+블로그에 버그가 있기는 하지만 일단은 구현에 참고했던 사이트만 남겨두고 남겨두고 진정하려고 한 일을 먼저 해야겠다는 생각이 들었다.
+이 블로그는 내가 무엇을 했는지 남겨두는 거지, 누군가에게 도움이 되는 건 부수효과이기 때문이다.
+      
+시도 1. 수동방식으로 했는데 리스트가 안 올라온다.
 https://jeesub.github.io/blog/jekyll-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0/
 
-사이드 카테고리 만들기 인데...
-안된다.
+현재 에러를 스샷으로 남겨둔다.
+        choichajang.github.io/assets/images/3rd_error.png
+
+시도 2. 사이드 카테고리 만들기 인데 역시나 실패
 https://devyurim.github.io/development%20environment/github%20blog/2018/08/07/blog-6.html
 
 
-아래 블로그로 자동으로 카테고리 만드는 방법을 구현했으나 막판에 버그가 있고 테마가 바뀐다.
+시도 3. 아래 블로그로 자동으로 카테고리 만드는 방법을 구현했으나 원하는 기능이 아니라 패스
 https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-002/
 
-마지막 시도할 놈
-https://cookieshake.github.io/posts/Jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-Category-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0
-
-
-외국 블로그 3스텝 구현
+시도 4.외국 블로그 3스텝 구현... 으흠
 https://blog.webjeda.com/jekyll-categories/
+
+숙제 5. 차후에는 아래 링크로 공부해봐야겠다.
+https://shryu8902.github.io/tags/#%EC%A7%80%ED%82%AC
+
+선행 학습을 공개해주신 모든 분께 감사드립니다.
+제 실력이 모자라 제대로 구현을 못했지만, 해당 포스트 하단에 덕분에 잘 된다는 글이 많습니다.
+위 블로그에 있는 내용에는 이상이 없사오니 이점 오해 말아주세요.
