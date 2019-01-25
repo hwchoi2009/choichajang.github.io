@@ -2,7 +2,7 @@
 layout: default
 title:  "블로그에 카테고리 추가 실패기"
 date: 2019-01-24 23:05:00 -0400
-categories: clang
+categories: tech
 ---
 
 지킬에 카테고리가 붙는 모양이 참 제각각이네요.
@@ -34,6 +34,11 @@ categories: clang
 
 ### 과제 5. 차후에는 아래 링크로 공부해봐야겠다.
 [shryu8902.github.io](https://shryu8902.github.io/tags/#%EC%A7%80%ED%82%AC)
+
+### 참고
+- [Jekyll cheatsheet](https://devhints.io/jekyll)
+- [테마 스타일 참고용](lixizhi.github.io))
+- [완전 초보자를 위한 깃허브](https://nolboo.kim/blog/2013/10/06/github-for-beginner/)
 
 선행 학습을 공개해주신 모든 분께 감사드립니다.
 제 실력이 모자라 제대로 구현을 못했지만, 해당 포스트 하단에 덕분에 잘 된다는 글이 많습니다.
