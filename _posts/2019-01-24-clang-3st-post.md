@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "카테고리 추가하기(실패)"
+title:  "블로그에 카테고리 추가 실패기"
 date: 2019-01-24 23:05:00 -0400
 categories: clang
 ---
