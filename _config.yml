@@ -254,10 +254,15 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 
+# Post navigation
+post_navigation: true
+  
 category_dir: category/
 category_archive:
   type: liquid
   path: /categories/
+
+category_layout: "category.html" # <- default value
 #tag_archive:
 #  type: liquid
 #  path: /tags/
