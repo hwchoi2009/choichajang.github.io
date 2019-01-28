@@ -1,20 +1,12 @@
 ---
 layout: page
 title: About
+author: "ChoiChaJang"
 permalink: /about/
 ---
 
 <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
----
-layout: default
-title: "최차장"
-subtitle: "최차장 소개"
-type: "About"
-author: "ChoiChaJang"
-permalink: /about/
-post-header: true
-header-img: "/choichajang.github.io/KakaoTalk_20190122_223920820.png"      
----
+
 
 # IT 기술에 관심 많은 아재 개그 마에스트로
 
