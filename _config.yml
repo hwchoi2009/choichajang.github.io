@@ -9,12 +9,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: "ÃÖÂ÷ÀåÀÇ Åğ±Ù ÈÄ ´ÙÀÌ¾î¸®"
-subtitle: "°Ç´ãÁ¶¾Æ"
+title: "ìµœì°¨ì¥ì˜ í‡´ê·¼ í›„ ë‹¤ì´ì–´ë¦¬"
+subtitle: "ê±´ë‹´ì¡°ì•„"
 #email: blcentra@gmail.com
-name: "ÃÖÂ÷Àå"
+name: "ìµœì°¨ì¥"
 description: >
-  ¿¬³²µ¿ ÃÖÂ÷ÀåÀÔ´Ï´Ù.
+  ì—°ë‚¨ë™ ìµœì°¨ì¥ì…ë‹ˆë‹¤.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
