@@ -1,51 +1,17 @@
 ---
-layout: default
-title: "최차장"
-subtitle: "최차장 소개"
-type: "About"
-author: "ChoiChaJang"
+layout: page
+title: About
 permalink: /about/
-post-header: true
-header-img: "/choichajang.github.io/KakaoTalk_20190122_223920820.png"      
 ---
 
-# IT 기술에 관심 많은 아재 개그 마에스트로
+<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
-### [IT 서적 에디터]
-2009년부터 IT 도서 에디터로 전업하여 올 해 안에 100권째 도서를 출간할 예정이다. 운이 좋게 업계 톱클래스 개발자와 협업하는 많은 기회를 얻었고, 그덕분에 좋은 책을 내며 성장할 수 있었다. 
+Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
 
-현재 자사 주력 시리즈인 <이것이>를 기획하고 1번째 & 2번째 책을 출간했다. IT 트렌드를 현실감 있게 집중 해부하는 IT 트렌드 서적을 2회 연속 기획출간했다. 검증된 강좌를 책으로 담는 <소문난 명강의> 시리즈를 기획하고 1번째 & 2번째 책을 출간했다. 떠오르는 몇 종만 추리면 다음과 같다.
+This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
 
-- [해커스](http://www.yes24.com/24/goods/9410320)(스티브 레비 저 / 박재호 역)
-- [읽기 좋은 코드가 좋은 코드다](http://www.yes24.com/24/goods/6692314)(더스틴 보즈웰, 트레버 파우커 공저 / 임백준 역)
-- [폴리글랏 프로그래밍](http://www.yes24.com/24/Goods/12204890)(임백준 저)
-- [자바 네트워크 소녀 네티](http://www.yes24.com/24/Goods/20600128)(정경석 저)
-- [디스커버리 Go 언어](http://www.yes24.com/24/Goods/24759320)(염재현 / 염산악 저)
-- [이것이 C 언어다](http://www.yes24.com/24/Goods/13200308)(서현우 저)
-- [이것이 안드로이드다](http://www.yes24.com/24/goods/13950202)(박성근 저)
-- [IT 트렌드 스페셜 리포트 2018](http://www.yes24.com/24/goods/55265482)(김석기, 김승열, 정도희 저)
-- [IT 트렌드 스페셜 리포트 2019](http://www.yes24.com/24/goods/66143534)(김석기, 김승열, 박재호, 김진영, 금동우 저)
-- [(소문난 명강의) 오준석의 안드로이드 생존코딩](http://www.yes24.com/24/Goods/64494679)(오준석 저)
-- (소문난 명강의) 레트로의 유니티 프로그래밍 에센스(이제민 저, 2019년 2월 출간 예정)
-- [코딩셰프의 3분 딥러닝, 케라스맛](http://www.yes24.com/24/Goods/57617933)(김성진 저)
-- [헬로 데이터 과학](http://www.yes24.com/24/Goods/24349374)(김진영 저)
+You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
-<br />
-
-### [IT 라이터 : 예스24 트렌드 & Books]
-
-- [2018 IT 업계 개발자 8대 뉴스 : 연말을 뒤돌아보는 10대 뉴스](http://ch.yes24.com/Article/View/37691)
-- [IT 트렌드를 찾아서 : 트렌드, 미래 먹거리로의 안내자](http://ch.yes24.com/Article/View/37452)
-- [블록체인 : 탈중앙화된 더 유익한 킬러 앱을 기다리며(비트코인, 기축통화의 위엄)](http://ch.yes24.com/Article/View/37179)
-- [안드로이드 파이 너머 저편에 : 안드로이드, 원오브뎀 시장의 비애](http://ch.yes24.com/Article/View/37014)
-- [인생 첫 프로그래밍 언어 선택의 기준 : 옛날 해커의 프로그래밍 이야기](http://ch.yes24.com/Article/View/36768)
-- [WWDC 2018에서 애플의 DNA 찾아보기 : 잡스가 심은 혁신의 DNA](http://ch.yes24.com/Article/View/36499)
-<br />
-
-### [IT 고인물 : 오래전 장착 스킬]
-8여 년을 개발자로 일하며 8비트/16비트 프로세서, ARM 기반에서 F/W를 개발했다. 아울러 윈도우 디바이스 드라이버(USB, NDIS)와 리눅스 커널 모듈링, 윈도우/리눅스 애플리케이션/라이브러리를 작성했다. 참여 프로젝트로는 지문인식 도어락, 어린이 음성인식 학습기, 네트워킹 DB 보안 솔류션 등이 있다. 개발자로 활동하면서 RTOS/C/리눅스/디바이스드라이버 등 주제를 국내 대표 IT 교육 기관과 대학 등에서 강의한 경력이 있다.
-
-- C 언어 / 어샘블리
-- 다양한 8/16/32비트 CPU/MPU 기반 임베디드 코딩
-- 윈도우/리눅스 기반 디바이스 드라이버 개발(NDIS, Characters, USB)
-- 윈도우/리눅스 기반 애플리케이션/미들웨어 개발
+[centrarium]: https://github.com/bencentra/centrarium
+[bencentra]: http://bencentra.com
+[jekyll]: https://github.com/jekyll/jekyll
