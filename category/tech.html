@@ -11,7 +11,7 @@ permalink: /posts/
 # </ul>
 
   <ul class="posts-list">
-  {% for post in site.categories[tech] %}
+  {% for post in site.categories.tech %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
