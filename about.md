@@ -5,7 +5,7 @@ author: "ChoiChaJang"
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/me.jpg" title="Profile Picture" class="profile">
 
 
 # IT 기술에 관심 많은 아재 개그 마에스트로
