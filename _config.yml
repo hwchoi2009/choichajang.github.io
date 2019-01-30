@@ -54,6 +54,9 @@ descriptions:
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
+# comment
+facebook_app_id: 378872509298788
+
 # Social icons and sharing options
 #
 # Social settings are used in two places:
