@@ -10,11 +10,11 @@ exclude:
 
 # Site settings
 title: "최차장의 퇴근 후 다이어리"
-subtitle: "건담조아"
+# subtitle: "건담조아"
 #email: blcentra@gmail.com
 name: "최차장"
-description: >
-  연남동 최차장입니다.
+# description: >
+#  연남동 최차장입니다.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -70,7 +70,6 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-
   - name: Facebook
     icon: facebook
     username: choichajang
@@ -83,7 +82,7 @@ social:
     username: choichajang
     url: https://github.com/choichajang
     desc: Fork me on GitHub
-    share: false
+    share: true
 
  # - name: LinkedIn
  #   icon: linkedin
@@ -123,8 +122,6 @@ protocols:
     fb_image_width: 612
     fb_image_height: 605
     fb_image_type: "image/png"
-
-    twitter_image: "/assets/logo.png"
 
     os_repo: "https://github.com/choichajang/"
     os_rcs_type: "git"
